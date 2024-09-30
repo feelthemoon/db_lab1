@@ -1,0 +1,7 @@
+
+php.ini -
+
+memory_limit=32000M
+post_max_size=31000M
+upload_max_filesize=30000M
+

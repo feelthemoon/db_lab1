@@ -1,0 +1,217 @@
+body {background-color: #fff; color: #000;}
+body, td, th, h1, h2 {font-family: sans-serif;}
+pre {margin: 0px; font-family: monospace;}
+a:link {color: #000099; text-decoration: none; background-color: #f2fcf2;}
+table {border-collapse: collapse;}
+.center {text-align: center;}
+.center table { margin-left: auto; margin-right: auto; text-align: left;}
+.center th { text-align: center !important; }
+td, th { border: 1px solid #000; font-size: 75%; vertical-align: baseline;}
+h1 {font-size: 150%;}
+h2 {font-size: 125%;}
+.p {text-align: left;}
+.e {background-color: #ccccff; font-weight: bold; color: #000;}
+.h {background-color: #9999cc; font-weight: bold; color: #000;}
+.v {background-color: #ccc; color: #000;}
+.vr {background-color: #ccc; text-align: right; color: #000;}
+img {float: right; border: 0px;}
+hr {width: 600px; background-color: #ccc; border: 0px; height: 1px; color: #000;}
+   
+.hint {
+	margin:3px;
+	padding:10px;
+	font-style: italic;
+	font-size: 12px;
+}
+
+
+/* настройки таблицы */
+.tView1 {
+    width: 95%; /* Ширина таблицы */
+    table-layout: fixed; 
+}
+
+tr td {
+    padding: 5px; /* Поля в ячейках */
+    position: relative; /* Относительное позиционирование */
+	border: 1px solid #333;
+	height:20px;
+	
+}
+tr td a {
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0; /* По ширине ячейки */
+    top: 0; bottom: 0; /* По высоте ячейки */
+    color: #fff; /* Цвет ссылок */
+    padding: 7px; /* Поля вокруг текста */
+	background-color: #f2fcf2;
+}
+tr td a img {
+	margin: -2px;
+}
+tr td a:visited {
+	background-color: white;
+}
+tr td a:hover { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    background-color: #e9efe6; /* Цвет фона при наведении */
+	cursor: pointer;
+}
+tr:nth-child(1) td a {
+	background-color: #87ac92;
+	color: #fff;
+}
+tr:nth-child(1) td a:hover {
+	background-color: #6e9b7b;
+}
+
+input:hover {
+	background-color: #e9efe6;
+}
+/* настройки таблицы - КОНЕЦ */
+
+
+/* красивые кнопки */
+.bt {
+	align-items: center;
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    outline: none;
+    position: relative;
+    z-index: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .25px;
+    background: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #5f6368;
+    cursor: pointer;
+    font-weight: 500;
+    height: 36px;
+    min-width: 80px;
+    outline: none;
+    padding: 0 16px;
+    background-color: #6bdb6b;
+    color: #fff;
+    margin: 0 0 0 8px;
+}
+
+.bt:hover, .bt:visited {
+    background-color: #95e695;
+    background-image: -webkit-linear-gradient(top,transparent,transparent);
+    background-image: linear-gradient(top,transparent,transparent);
+    color: #fff;
+	box-shadow: 0px 1px 2px 0px #95e695;
+}
+
+.bt:active {
+	background-color: #43d143;
+}
+
+.btMenu {
+	margin:0px;
+	padding:0px;
+	width:23px;
+	height:23px;	
+}
+.btMenu1 a {
+	margin:0px;
+	padding:0px;
+}
+
+.btMenuImg {
+	vertical-align:middle; 
+	height:20px;
+	width:20px;
+	float:left;
+	cursor:pointer;
+}
+
+
+input[type="edit"] {
+    background: #80adf8;
+    padding: 7px;
+	font-style: italic;
+}
+
+input[type="edit"]:hover {
+    background: #4487f5;
+}
+
+i {
+	font-size:12px;
+}
+
+h1 a {
+    color: #80adf8;
+	background-color: #fff;
+}
+h1 a:link {
+    color: #80adf8;
+	background-color: #fff;
+}
+
+h1 a:hover {
+    color: #4487f5;
+	background-color: #fff;
+}
+
+.act {
+	height: 20px;
+	width: 20px;
+	background: #d0dfd4;
+}
+.actRt {
+	width:20px;
+}
+.actRt a img {
+	height:20px;
+	width:20px;
+}
+.hedTabl {
+	background: #437d54;
+	color: #fff;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: center;
+	direction: rtl;
+}
+
+.hedTabl td a:nth-child(2) {
+	padding-right: 40px;	
+}
+.hedTabl td a:nth-child(n+2) {
+	height: 15px;
+    width: 18px;
+}
+.hedTabl td a img {
+	height:20px;
+	width:20px;
+}
+
+td:nth-child(1) {
+	width: 35px;
+	text-align: center;
+}
+
+form div {
+	float: left;
+    width: 50%;
+    margin-bottom: 8px;
+
+}
+
+form div div {
+	text-align: right;
+    font-size: 18px;
+	width: 230px;
+    margin: 14px;
+}
+
+form div input[type="edit"] {
+    margin: 8px;
+	float: left;
+}

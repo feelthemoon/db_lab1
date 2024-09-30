@@ -1,0 +1,50 @@
+body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12px;
+}
+content {
+	width:100%;
+	min-width:960px;
+	margin:0 auto;
+	border: 0px;
+}
+main {
+	margin:0px;
+	float: left;
+	min-width:960px;
+	min-height:495px;
+}
+main table {
+	margin:10px;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	width: 530px;
+}
+main table tr td {
+	padding:5px;
+	border: 1px solid #000;
+}
+main table tr {
+	vertical-align:top;
+}
+.cl {
+	border-top:0px;
+	border-bottom:0px;
+	text-align:left;
+}	 
+.cr {
+	border-top:0px;
+	border-bottom:0px;
+	text-align:right;
+}
+.c2 {
+	text-align:center;
+	padding:5px;
+	font-size:24px;
+	border:0px;
+	width:630px;
+}
+.cH td {
+	text-align:center;
+	font-weight:bold;
+}
